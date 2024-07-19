@@ -1,4 +1,3 @@
-package CrackPlacement;
 
 import java.util.Arrays;
 

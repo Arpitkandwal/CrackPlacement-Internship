@@ -1,4 +1,3 @@
-package CrackPlacement;
 
 public class BestTimetoBuyAndSell {
     public static void main(String[] args) {
