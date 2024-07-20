@@ -26,7 +26,6 @@ public class SortColors {
             else {
                 swap(nums, mid, high);
                 high--;
-                mid++;
             }
         }
 
