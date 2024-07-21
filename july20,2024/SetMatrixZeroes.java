@@ -3,10 +3,9 @@ import java.util.Arrays;
 public class SetMatrixZeroes {
     public static void main(String[] args) {
         int[][] matrix = {{1,1,1}, {1,0,1}, {1,1,1}};
-        
     }
 
-    public void setZeroes(int[][] matrix) {
+    public static void setZeroes(int[][] matrix) {
         int rows = matrix.length;
         int cols = matrix[0].length;
         boolean fcol = false;
