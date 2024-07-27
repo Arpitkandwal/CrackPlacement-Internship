@@ -2,11 +2,11 @@ import java.util.Stack;
 
 public class ReverseWordsInAString {
     public static void main(String[] args) {
-        
+        System.out.println(reverseWords("i am a computer science student"));
     }
 
-    public String reverseWords(String s) {
-        String[] string = s.split("\\s+");
+    public static String reverseWords(String s) {
+        String[] string = s.trim().split("\\s+");
         Stack<String> stack = new Stack<>();
 
         for(String str : string) {

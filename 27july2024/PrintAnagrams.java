@@ -1,10 +1,12 @@
 import java.util.*;
-public class GroupAnagrams {
-    public static void main(String[] args) {
-         String[] strs = {"eat","tea","tan","ate","nat","bat"};
-         System.out.println(groupAnagrams(strs));
-    }
 
+public class PrintAnagrams {
+
+    public static void main(String[] args) {
+        String[] strs = {"eat","tea","tan","ate","nat","bat"};
+        System.out.println(groupAnagrams(strs));
+   }
+    
     public static List<List<String>> groupAnagrams(String[] strs) {
         if(strs == null) {
             return new ArrayList<>();
